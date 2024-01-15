@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: lightslategrey;
+}
+
+#scelta,
+#numero,
+#bottone,
+#risultato,
+label {
+    margin-block: 20px;
+    align-self: center;
+}
+
+#scelta {
+    width: 8%;
+    padding: 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+
+#bottone{
+    padding: 5px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    color:lightblue;
+    text-transform: uppercase;
+    background-color: white;
+    width: 50%;
+}
+
+
+label,
+#risultato{
+    color:white;
+    font-family: sans-serif;
+    font-size: 25px;
+}
